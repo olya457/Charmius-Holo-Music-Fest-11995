@@ -1,4 +1,4 @@
-package com.charmiusholo.musicfest
+package com.holovibefestival
 
 import android.app.Application
 import com.facebook.react.PackageList

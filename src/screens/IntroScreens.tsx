@@ -21,9 +21,25 @@ import { images } from '../data/images';
 import { useFestival } from '../storage/FestivalProvider';
 import { colors, styles as s } from '../theme';
 import { Button } from '../components/ui';
-import { ScreenMotion, AuroraGlow } from '../components/Motion';
+import { ScreenMotion } from '../components/Motion';
 import { getIntroLayout } from '../utils/introLayout';
 import { useMotion } from '../hooks/useMotion';
+const introGradient = ['#080F30', '#24204C', '#84265E'];
+
+function IntroBackground({ children }: { children: React.ReactNode }) {
+  return (
+    <LinearGradient
+      colors={introGradient}
+      locations={[0, 0.5, 1]}
+      start={{ x: 0, y: 0 }}
+      end={{ x: 1, y: 1 }}
+      style={s.fill}
+    >
+      {children}
+    </LinearGradient>
+  );
+}
+
 const animation = `<!doctype html><html><head><meta name="viewport" content="width=device-width, initial-scale=1"><style>html,body{margin:0;background:transparent;overflow:hidden;height:100%}body{display:flex;align-items:center;justify-content:center;gap:8px}.dot{width:7px;height:7px;background:#af8bff;border-radius:100%;animation:pulse 1s ease-in-out infinite}.dot:nth-child(2){animation-delay:.18s}.dot:nth-child(3){animation-delay:.36s}@keyframes pulse{50%{background:#00d8ff;transform:scale(1.6);box-shadow:0 0 16px #9d5bff}}</style></head><body><i class="dot"></i><i class="dot"></i><i class="dot"></i><script>setTimeout(function(){window.ReactNativeWebView.postMessage('finished')},4000)</script></body></html>`;
 export function SplashScreen({
   navigation,
@@ -57,74 +73,66 @@ export function SplashScreen({
     }
   }, [finished, ready, onboarded, navigation]);
   return (
-    <ImageBackground source={images['splash-background']} style={s.fill}>
-      <LinearGradient
-        colors={['#090B2255', '#090B22AA', '#090B22DD']}
-        style={s.fill}
+    <IntroBackground>
+      <SafeAreaView
+        edges={['top', 'bottom']}
+        style={[s.fill, { paddingHorizontal: layout.sidePadding }]}
       >
-        <AuroraGlow />
-        <SafeAreaView
-          edges={['top', 'bottom']}
-          style={[s.fill, { paddingHorizontal: layout.sidePadding }]}
+        <ScrollView
+          contentContainerStyle={[i.splash, { flexGrow: 1 }]}
+          showsVerticalScrollIndicator={false}
         >
-          <ScrollView
-            contentContainerStyle={[i.splash, { flexGrow: 1 }]}
-            showsVerticalScrollIndicator={false}
-          >
-            <View style={s.fill} />
-            <Image
-              source={images['charmius-logo']}
-              style={{
-                width: logoSize,
-                height: logoSize * 1.05,
-              }}
-              resizeMode="contain"
-            />
-            <View style={s.fill} />
-            <Text style={[s.eyebrow, { textAlign: 'center' }]}>
-              HOLOGRAPHIC FESTIVAL 2026
-            </Text>
-            <Text style={[s.title, i.splashTitle]}>
-              Charmius Holo{'\n'}Music
-            </Text>
-            {error ? (
-              <View style={s.gap}>
-                <Text style={s.muted}>{error}</Text>
-                <Button title="Try Again" onPress={retry} />
-              </View>
-            ) : (
-              <View style={i.web}>
-                <WebView
-                  originWhitelist={['*']}
-                  source={{
-                    html: reduced
-                      ? animation.replace(
-                          'animation:pulse 1s ease-in-out infinite',
-                          'animation:none',
-                        )
-                      : animation,
-                  }}
-                  style={i.transparent}
-                  scrollEnabled={false}
-                  onLoadEnd={start}
-                  onError={start}
-                  onMessage={event => {
-                    if (event.nativeEvent.data === 'finished') {
-                      setFinished(true);
-                    }
-                  }}
-                />
-              </View>
-            )}
-          </ScrollView>
-        </SafeAreaView>
-      </LinearGradient>
-    </ImageBackground>
+          <View style={s.fill} />
+          <Image
+            source={images['splash-listener']}
+            style={{
+              width: logoSize,
+              height: logoSize,
+            }}
+            resizeMode="contain"
+          />
+          <View style={s.fill} />
+          <Text style={[s.eyebrow, { textAlign: 'center' }]}>
+            HOLOGRAPHIC FESTIVAL 2026
+          </Text>
+          <Text style={[s.title, i.splashTitle]}>Charmius Holo{'\n'}Music</Text>
+          {error ? (
+            <View style={s.gap}>
+              <Text style={s.muted}>{error}</Text>
+              <Button title="Try Again" onPress={retry} />
+            </View>
+          ) : (
+            <View style={i.web}>
+              <WebView
+                originWhitelist={['*']}
+                source={{
+                  html: reduced
+                    ? animation.replace(
+                        'animation:pulse 1s ease-in-out infinite',
+                        'animation:none',
+                      )
+                    : animation,
+                }}
+                style={i.transparent}
+                scrollEnabled={false}
+                onLoadEnd={start}
+                onError={start}
+                onMessage={event => {
+                  if (event.nativeEvent.data === 'finished') {
+                    setFinished(true);
+                  }
+                }}
+              />
+            </View>
+          )}
+        </ScrollView>
+      </SafeAreaView>
+    </IntroBackground>
   );
 }
 const slides = [
   {
-    image: 'festival-entrance',
+    image: 'onboarding-entrance',
     label: 'DISCOVER LIVE',
     title: 'Experience the Future of Music',
     body: 'Explore spectacular holographic concerts, virtual performers, immersive sound environments, and futuristic live entertainment.',
@@ -164,77 +172,80 @@ export function OnboardingScreen({
     }
   }
   return (
-    <SafeAreaView
-      edges={['top', 'bottom']}
-      style={[s.page, { paddingHorizontal: layout.sidePadding }]}
-    >
-      <AuroraGlow />
-      <ScrollView
-        contentContainerStyle={i.onboardingScroll}
-        showsVerticalScrollIndicator={false}
-        bounces={false}
+    <IntroBackground>
+      <SafeAreaView
+        edges={['top', 'bottom']}
+        style={[s.fill, { paddingHorizontal: layout.sidePadding }]}
       >
-        <ScreenMotion
-          identity={index}
-          style={[i.onboarding, layout.wide && i.onboardingWide]}
+        <ScrollView
+          contentContainerStyle={i.onboardingScroll}
+          showsVerticalScrollIndicator={false}
+          bounces={false}
         >
-          <ImageBackground
-            source={images[slide.image]}
-            resizeMode="cover"
-            style={[
-              i.hero,
-              {
-                height: layout.wide
-                  ? Math.max(280, Math.min(520, layout.height - 48))
-                  : Math.max(180, Math.min(420, layout.height * 0.48)),
-              },
-              layout.wide && i.onboardingPanel,
-            ]}
+          <ScreenMotion
+            identity={index}
+            style={[i.onboarding, layout.wide && i.onboardingWide]}
           >
-            <LinearGradient
-              colors={['#0C102700', '#0C102700', '#0C1027']}
-              locations={[0, 0.55, 1]}
-              style={StyleSheet.absoluteFill}
-            />
-            <View style={i.heroContent}>
-              <Button
-                outline
-                title="Skip"
-                onPress={finish}
-                disabled={busy}
-                style={i.skip}
+            <ImageBackground
+              source={images[slide.image]}
+              resizeMode="cover"
+              style={[
+                i.hero,
+                {
+                  height: layout.wide
+                    ? Math.max(280, Math.min(520, layout.height - 48))
+                    : Math.max(180, Math.min(420, layout.height * 0.48)),
+                },
+                layout.wide && i.onboardingPanel,
+              ]}
+            >
+              <LinearGradient
+                colors={['#080F3000', '#080F3000', '#080F30CC']}
+                locations={[0, 0.55, 1]}
+                style={StyleSheet.absoluteFill}
               />
-              <Text style={s.eyebrow}>✧ {slide.label}</Text>
+              <View style={i.heroContent}>
+                <Button
+                  outline
+                  title="Skip"
+                  onPress={finish}
+                  disabled={busy}
+                  style={i.skip}
+                />
+                <Text style={s.eyebrow}>✧ {slide.label}</Text>
+              </View>
+            </ImageBackground>
+            <View
+              style={[
+                i.onboardingContent,
+                { paddingHorizontal: layout.padding },
+                layout.wide && i.onboardingPanel,
+              ]}
+            >
+              <View style={i.dots}>
+                {slides.map((_, n) => (
+                  <View key={n} style={[i.dot, n === index && i.activeDot]} />
+                ))}
+              </View>
+              <Text style={[s.title, i.onboardingTitle]}>{slide.title}</Text>
+              <Text style={[s.muted, i.onboardingDescription]}>
+                {slide.body}
+              </Text>
+              <Button
+                title={index === 2 ? 'Explore Festival' : 'Next'}
+                icon="next"
+                loading={busy}
+                style={i.next}
+                onPress={() => (index < 2 ? setIndex(index + 1) : finish())}
+              />
+              <Text style={[s.small, i.footer]}>
+                Charmius Holo Music Fest · 2026
+              </Text>
             </View>
-          </ImageBackground>
-          <View
-            style={[
-              i.onboardingContent,
-              { paddingHorizontal: layout.padding },
-              layout.wide && i.onboardingPanel,
-            ]}
-          >
-            <View style={i.dots}>
-              {slides.map((_, n) => (
-                <View key={n} style={[i.dot, n === index && i.activeDot]} />
-              ))}
-            </View>
-            <Text style={[s.title, i.onboardingTitle]}>{slide.title}</Text>
-            <Text style={[s.muted, i.onboardingDescription]}>{slide.body}</Text>
-            <Button
-              title={index === 2 ? 'Explore Festival' : 'Next'}
-              icon="next"
-              loading={busy}
-              style={i.next}
-              onPress={() => (index < 2 ? setIndex(index + 1) : finish())}
-            />
-            <Text style={[s.small, i.footer]}>
-              Charmius Holo Music Fest · 2026
-            </Text>
-          </View>
-        </ScreenMotion>
-      </ScrollView>
-    </SafeAreaView>
+          </ScreenMotion>
+        </ScrollView>
+      </SafeAreaView>
+    </IntroBackground>
   );
 }
 const i = StyleSheet.create({

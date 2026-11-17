@@ -1,6 +1,7 @@
 import { ImageSourcePropType } from 'react-native';
 
 export const images: Record<string, ImageSourcePropType> = {
+  'splash-listener': require('../assets/splash-listener.png'),
   'aurora-light-symphony': require('../assets/aurora-light-symphony.png'),
   'aurora-nova': require('../assets/aurora-nova.png'),
   'charmius-logo': require('../assets/charmius-logo.png'),
@@ -14,6 +15,7 @@ export const images: Record<string, ImageSourcePropType> = {
   'digital-welcome-plaza': require('../assets/digital-welcome-plaza.png'),
   'dream-portal-experience': require('../assets/dream-portal-experience.png'),
   'electric-motion-finale': require('../assets/electric-motion-finale.png'),
+  'onboarding-entrance': require('../assets/onboarding-entrance.png'),
   'festival-entrance': require('../assets/festival-entrance.jpg'),
   'festival-map': require('../assets/festival-map.png'),
   'festival-plaza': require('../assets/festival-plaza.png'),
