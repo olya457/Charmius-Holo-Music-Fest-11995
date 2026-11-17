@@ -1,97 +1,44 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Charmius Holo Music Fest
 
-# Getting Started
+React Native + TypeScript festival application using React Navigation.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
-
-## Step 1: Start Metro
-
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
-
-To start the Metro dev server, run the following command from the root of your React Native project:
+## Run
 
 ```sh
-# Using npm
+npm install
 npm start
-
-# OR using Yarn
-yarn start
-```
-
-## Step 2: Build and run your app
-
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
-
-### Android
-
-```sh
-# Using npm
-npm run android
-
-# OR using Yarn
-yarn android
-```
-
-### iOS
-
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
-
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
-
-```sh
-bundle install
-```
-
-Then, and every time you update your native dependencies, run:
-
-```sh
-bundle exec pod install
-```
-
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
-
-```sh
-# Using npm
 npm run ios
-
-# OR using Yarn
-yarn ios
+npm run android
 ```
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+Install iOS dependencies with CocoaPods before the first native build. Node 22.11+ and the native React Native toolchains are required.
 
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
+## Structure
 
-## Step 3: Modify your app
+- `src/screens`: splash, onboarding, catalogues, details, map, bookings and tickets
+- `src/components`: shared controls, cards, SVG icons, map and dialogs
+- `src/navigation`: typed stack and bottom-tab navigation
+- `src/storage`: AsyncStorage persistence and reservation state
+- `src/data`: supplied festival content and local image references
+- `src/theme`: shared colours and styles
+- `src/assets`: original project images
 
-Now that you have successfully run the app, let's make changes!
+The splash uses a local WebView animation for four seconds. Completed onboarding and bookings persist across restarts. Bookings start empty. All images and festival content are bundled for offline use.
 
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+The catalogue comes from the supplied descriptions and mockups. The six-month programme runs from November 2026 through April 2027, with 15 performances repeating on the 21st–23rd each month (90 dated performances, Europe/Kyiv). Booking requires an upcoming occurrence; its date, time and timezone are saved with the reservation and QR payload. Existing undated reservations remain readable. The map is a schematic festival overview. QR codes encode local reservation references, shows and guest counts; there is no external inventory, payment, or admission-verification backend. Cancellation removes the local booking.
 
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
+## Validation
 
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
+```sh
+npx tsc --noEmit
+npm run lint
+npm test -- --runInBand
+```
 
-## Congratulations! :tada:
+## Adaptive layouts and learning
 
-You've successfully run and modified your React Native App. :partying_face:
+Layouts respond to current window dimensions and safe-area insets rather than device names. Compact windows use single-column cards; expanded windows use grids and two-column detail, map and reservation views. Wide landscape windows use a side tab bar. iOS uses scene-based windows and supports rotation. Use Xcode 27.1 or newer for iPhone Duo testing.
 
-### Now what?
+The Tech tab links to Beyond the Stage, with six English resources from Oxford, Epic Games and Dolby. Search, type filters and saved links work locally; external articles and videos open in the browser and require internet access.
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+Screen transitions, aurora backgrounds and button feedback respect Reduce Motion. Continuous effects pause while the app is backgrounded or the screen is unfocused.

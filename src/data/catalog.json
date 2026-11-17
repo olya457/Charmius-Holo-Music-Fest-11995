@@ -1,0 +1,753 @@
+{
+  "shows": [
+    {
+      "id": "neon-pulse-live",
+      "title": "Neon Pulse Live",
+      "category": "Hologram Concerts",
+      "venue": "Main Hologram Arena",
+      "time": "19:00",
+      "duration": 60,
+      "description": "A spectacular futuristic pop concert with a luminous digital performer, synchronized dancers and immersive stage projections.",
+      "body": "A spectacular futuristic pop concert with a luminous digital performer, synchronized dancers and immersive stage projections.",
+      "meta": {
+        "Featured Performers": "Aurora Nova",
+        "Experience Highlights": "Glowing holographic singer, floating particles, translucent screens, and purple and pink laser beams."
+      },
+      "image": "aurora-nova"
+    },
+    {
+      "id": "cyber-dj-revolution",
+      "title": "Cyber DJ Revolution",
+      "category": "Special Events",
+      "venue": "Digital Sound Dome",
+      "time": "20:30",
+      "duration": 75,
+      "description": "Enter an electronic performance where a virtual DJ conducts laser tunnels and responsive digital sound waves.",
+      "body": "Enter an electronic performance where a virtual DJ conducts laser tunnels and responsive digital sound waves.",
+      "meta": {
+        "Featured Performers": "Cyber Maestro",
+        "Experience Highlights": "Virtual DJ controls, animated sound waves and synchronized lasers."
+      },
+      "image": "cyber-maestro"
+    },
+    {
+      "id": "digital-symphony",
+      "title": "Digital Symphony",
+      "category": "Hologram Concerts",
+      "venue": "Crystal Projection Hall",
+      "time": "18:00",
+      "duration": 50,
+      "description": "A holographic orchestra pairs digitally recreated instruments with visual interpretations of classical compositions.",
+      "body": "A holographic orchestra pairs digitally recreated instruments with visual interpretations of classical compositions.",
+      "meta": {
+        "Featured Performers": "Quantum Digital Ensemble",
+        "Experience Highlights": "Digital instruments and luminous orchestral projections."
+      },
+      "image": "quantum-sphere"
+    },
+    {
+      "id": "cosmic-sound-journey",
+      "title": "Cosmic Sound Journey",
+      "category": "Immersive Experiences",
+      "venue": "Infinity Experience Zone",
+      "time": "21:00",
+      "duration": 45,
+      "description": "Travel through a digitally recreated universe of holographic planets, animated galaxies and atmospheric soundscapes.",
+      "body": "Travel through a digitally recreated universe of holographic planets, animated galaxies and atmospheric soundscapes.",
+      "meta": {
+        "Featured Performers": "Infinity Visual Ensemble",
+        "Experience Highlights": "Holographic planets, animated galaxies and spatial sound."
+      },
+      "image": "galaxy-pulse-dj"
+    },
+    {
+      "id": "holographic-dance-fusion",
+      "title": "Holographic Dance Fusion",
+      "category": "Light Performances",
+      "venue": "Neon Motion Stage",
+      "time": "22:00",
+      "duration": 55,
+      "description": "High-energy choreography combines animated performers, holographic silhouettes and interactive lighting effects.",
+      "body": "High-energy choreography combines animated performers, holographic silhouettes and interactive lighting effects.",
+      "meta": {
+        "Featured Performers": "Electric Motion Collective",
+        "Experience Highlights": "Animated movement trails, holographic dancers and interactive lighting."
+      },
+      "image": "neon-strike"
+    },
+    {
+      "id": "quantum-light-orchestra",
+      "title": "Quantum Light Orchestra",
+      "category": "Light Performances",
+      "description": "An orchestral light performance featuring digital instruments, animated musical particles, and synchronized projections.",
+      "body": "Quantum Light Orchestra explores the relationship between music and visual movement through a digitally enhanced orchestral performance.\nAs the orchestra performs, individual musical instruments generate corresponding light patterns across the stage. Strings create flowing luminous trails, percussion instruments produce rhythmic pulses, and melodic passages generate floating geometric shapes.\nThe concert combines orchestral arrangements with carefully synchronized visual effects to demonstrate how sound can be represented through light and motion.",
+      "meta": {
+        "Featured Performers": "Quantum Digital Ensemble",
+        "Experience Highlights": "Musical Light Patterns, Digital Instruments, Animated Particles, Synchronized Projections",
+        "Location": "Crystal Projection Hall"
+      },
+      "venue": "Crystal Projection Hall",
+      "time": "17:00",
+      "duration": 45,
+      "image": "quantum-light-orchestra"
+    },
+    {
+      "id": "neon-galaxy-beats",
+      "title": "Neon Galaxy Beats",
+      "category": "Immersive Experiences",
+      "description": "A cosmic electronic music show featuring virtual DJs, animated galaxies, and powerful synchronized lighting.",
+      "body": "Neon Galaxy Beats transforms the Digital Sound Dome into an immersive electronic music environment inspired by futuristic space travel.\nThe show features virtual DJ performances accompanied by animated star fields, digital nebulae, and luminous geometric structures.\nAs the music progresses, the dome changes its visual appearance through multiple cosmic environments. Laser beams and large LED installations create synchronized patterns that complement the electronic rhythms.",
+      "meta": {
+        "Featured Performer": "Galaxy Pulse DJ",
+        "Experience Highlights": "Virtual DJ, Cosmic Visualizations, Neon Laser Effects, Digital Galaxy Environments",
+        "Location": "Digital Sound Dome"
+      },
+      "venue": "Digital Sound Dome",
+      "time": "23:00",
+      "duration": 70,
+      "image": "neon-galaxy-beats"
+    },
+    {
+      "id": "virtual-legends-live",
+      "title": "Virtual Legends Live",
+      "category": "Special Events",
+      "description": "A digital concert featuring virtual rock musicians, holographic instruments, and large-scale stage projections.",
+      "body": "Virtual Legends Live presents a fictional digital rock band performing a collection of energetic original compositions.\nThe concert features animated holographic musicians playing electric guitars, drums, keyboards, and other instruments.\nLarge digital screens display close-up views of the virtual performers, while colorful light effects emphasize important musical moments.\nThe performance combines classic rock stage elements with futuristic holographic presentation technology.",
+      "meta": {
+        "Featured Performers": "Virtual Legends Band",
+        "Experience Highlights": "Holographic Rock Band, Digital Instruments, Animated Stage Effects, Immersive Concert Visuals",
+        "Location": "Main Hologram Arena"
+      },
+      "venue": "Main Hologram Arena",
+      "time": "20:00",
+      "duration": 65,
+      "image": "virtual-legends-live"
+    },
+    {
+      "id": "infinity-dreamscape",
+      "title": "Infinity Dreamscape",
+      "category": "Immersive Experiences",
+      "description": "A relaxing audiovisual experience featuring atmospheric music, floating digital landscapes, and immersive projections.",
+      "body": "Infinity Dreamscape is an atmospheric audiovisual performance designed around calm electronic music and immersive digital scenery.\nThe experience features slowly transforming environments filled with floating islands, luminous clouds, abstract landscapes, and animated crystal structures.\nSoft musical arrangements are synchronized with gradual lighting transitions, creating a relaxing environment.\nVisitors can observe how digital scenery changes in response to different musical themes throughout the performance.",
+      "meta": {
+        "Featured Experience": "Infinity Visual Ensemble",
+        "Experience Highlights": "Floating Digital Landscapes, Ambient Music, Holographic Environments, Soft Light Transitions",
+        "Location": "Infinity Experience Zone"
+      },
+      "venue": "Infinity Experience Zone",
+      "time": "18:30",
+      "duration": 40,
+      "image": "infinity-dreamscape"
+    },
+    {
+      "id": "electric-motion-finale",
+      "title": "Electric Motion Finale",
+      "category": "Special Events",
+      "description": "A large-scale holographic dance finale featuring digital performers, synchronized lasers, and spectacular visual effects.",
+      "body": "Electric Motion Finale is a high-energy closing performance combining digital dance choreography, electronic music, and advanced visual effects.\nThe show features a large group of holographic dancers performing synchronized routines across a multi-level digital stage.\nThroughout the performance, animated light trails, geometric projections, and moving laser beams create dynamic visual sequences.\nThe final segment brings together all digital performers in a coordinated audiovisual presentation featuring large-scale holographic effects and synchronized lighting.",
+      "meta": {
+        "Featured Performers": "Electric Motion Collective",
+        "Experience Highlights": "Group Holographic Dance, Digital Stage Transformations, Laser Choreography, Grand Finale Effects",
+        "Location": "Neon Motion Stage"
+      },
+      "venue": "Neon Motion Stage",
+      "time": "23:30",
+      "duration": 60,
+      "image": "electric-motion-finale"
+    },
+    {
+      "id": "phantom-frequency",
+      "title": "Phantom Frequency",
+      "category": "Hologram Concerts",
+      "description": "A mysterious holographic music performance featuring a masked virtual artist, electronic sound effects, and animated digital frequencies.",
+      "body": "Phantom Frequency is a futuristic electronic music concert featuring Phantom X, a mysterious virtual performer whose appearance is created through holographic projection and digital animation.\nThe performance combines deep electronic rhythms, atmospheric synthesizers, and experimental sound effects with constantly changing holographic environments.\nThroughout the show, the stage is filled with floating frequency waves, luminous geometric structures, and animated digital particles. The virtual performer changes appearance during different musical segments, transforming between glowing silhouettes, abstract digital forms, and a fully detailed holographic character.",
+      "meta": {
+        "Featured Performer": "Phantom X",
+        "Experience Highlights": "Holographic Transformation, Digital Frequency Waves, Electronic Sound Effects, Interactive Laser Patterns",
+        "Location": "Main Hologram Arena"
+      },
+      "venue": "Main Hologram Arena",
+      "time": "16:00",
+      "duration": 55,
+      "image": "phantom-frequency"
+    },
+    {
+      "id": "aurora-light-symphony",
+      "title": "Aurora Light Symphony",
+      "category": "Light Performances",
+      "description": "An atmospheric orchestral concert featuring holographic musicians, flowing aurora projections, and synchronized colorful lighting.",
+      "body": "Aurora Light Symphony combines orchestral music with digital visual effects inspired by the northern lights.\nThe performance features a holographic ensemble playing cinematic instrumental compositions while large projections recreate flowing aurora patterns across the concert hall.\nAs the music develops, luminous ribbons of blue, violet, and turquoise light move above the performers. Floating digital particles and animated musical symbols respond to changes in melody and rhythm.\nThe concert progresses through several visual sequences, each featuring a different combination of orchestral arrangements and atmospheric lighting.",
+      "meta": {
+        "Featured Performers": "Aurora Digital Ensemble",
+        "Experience Highlights": "Aurora Light Projections, Holographic Orchestra, Floating Musical Particles, Synchronized Atmospheric Lighting",
+        "Location": "Crystal Projection Hall"
+      },
+      "venue": "Crystal Projection Hall",
+      "time": "19:30",
+      "duration": 50,
+      "image": "aurora-light-symphony"
+    },
+    {
+      "id": "cybernetic-rhythm-battle",
+      "title": "Cybernetic Rhythm Battle",
+      "category": "Special Events",
+      "description": "A futuristic musical competition between two virtual performers featuring electronic percussion, digital instruments, and synchronized holographic effects.",
+      "body": "Cybernetic Rhythm Battle is a holographic music performance built around a fictional competition between two digital musicians, Rhythm Core and Neon Strike.\nEach performer represents a different electronic music style and uses a unique collection of digital percussion instruments.\nDuring the performance, the musicians alternate between rhythmic sequences, combining electronic drums, synthesizers, and experimental sound effects.\nThe stage is divided into two illuminated sections. One side features electric blue lighting and geometric projections, while the other uses vibrant pink and purple effects.\nAs the musical competition progresses, the visual environments merge into a synchronized final performance featuring both virtual artists.",
+      "meta": {
+        "Featured Performers": "Rhythm Core & Neon Strike",
+        "Experience Highlights": "Virtual Music Battle, Digital Percussion, Dual-Color Stage Effects, Synchronized Holographic Finale",
+        "Location": "Digital Sound Dome"
+      },
+      "venue": "Digital Sound Dome",
+      "time": "17:30",
+      "duration": 60,
+      "image": "cybernetic-rhythm-battle"
+    },
+    {
+      "id": "dream-portal-experience",
+      "title": "Dream Portal Experience",
+      "category": "Immersive Experiences",
+      "description": "An immersive audiovisual journey through holographic portals, floating digital landscapes, and dream-inspired musical environments.",
+      "body": "Dream Portal Experience is an immersive music performance that transports visitors through a series of digitally created fantasy environments.\nThe show begins with the appearance of a giant luminous portal surrounded by animated particles and flowing light structures.\nAs the music progresses, the portal reveals different virtual worlds, including floating islands, glowing crystal landscapes, futuristic cities, and abstract digital environments.\nEach environment features its own musical arrangement, lighting design, and projection effects.\nPanoramic visuals and spatial audio create the impression of moving between different digital worlds without leaving the performance area.",
+      "meta": {
+        "Featured Experience": "Dreamscape Digital Collective",
+        "Experience Highlights": "Holographic Portals, Floating Digital Worlds, Panoramic Projections, Spatial Audio Effects",
+        "Location": "Infinity Experience Zone"
+      },
+      "venue": "Infinity Experience Zone",
+      "time": "20:00",
+      "duration": 45,
+      "image": "dream-portal-experience"
+    },
+    {
+      "id": "neon-pulse-evolution",
+      "title": "Neon Pulse Evolution",
+      "category": "Hologram Concerts",
+      "description": "A large-scale holographic pop concert featuring multiple virtual performers, animated stage transformations, and synchronized digital choreography.",
+      "body": "Neon Pulse Evolution is an extended holographic concert featuring Aurora Nova and a collection of guest virtual performers.\nThe show combines electronic pop music, futuristic dance choreography, and large-scale digital stage effects.\nThroughout the concert, the stage transforms between illuminated futuristic cities, abstract geometric environments, and glowing digital landscapes.\nMultiple holographic performers appear during different musical sequences, accompanied by synchronized dancers and animated visual effects.\nThe final performance brings all virtual artists together on a single holographic stage, combining luminous sound waves, moving laser beams, and synchronized digital choreography.",
+      "meta": {
+        "Featured Performers": "Aurora Nova & Neon Pulse Collective",
+        "Experience Highlights": "Multiple Virtual Artists, Holographic Stage Transformations, Digital Dance Choreography, Grand Visual Finale",
+        "Location": "Main Hologram Arena"
+      },
+      "venue": "Main Hologram Arena",
+      "time": "22:30",
+      "duration": 70,
+      "image": "neon-pulse-evolution"
+    }
+  ],
+  "exhibits": [
+    {
+      "id": "aurora-nova",
+      "title": "Aurora Nova",
+      "category": "Digital Performers",
+      "description": "A futuristic holographic pop singer featuring luminous digital effects, expressive animations, and synchronized stage visuals.",
+      "body": "Aurora Nova is a virtual pop performer created through advanced 3D character modeling, digital animation, and holographic projection techniques.\nHer appearance features glowing blue and violet accents, flowing digital hair, and futuristic stage costumes. During performances, Aurora Nova moves through animated environments filled with luminous particles, colorful light trails, and synchronized visual effects.\nHer digital character is designed to perform expressive movements, coordinated choreography, and visually detailed musical sequences.",
+      "meta": {
+        "Visual Features": "Glowing Digital Hair, Holographic Costume, Animated Light Particles, Expressive Character Animation",
+        "Technology": "3D Character Modeling, Digital Animation, Projection-Based Stage Effects",
+        "Location": "Main Hologram Arena",
+        "Related Show": "Neon Pulse Live"
+      },
+      "image": "aurora-nova"
+    },
+    {
+      "id": "cyber-maestro",
+      "title": "Cyber Maestro",
+      "category": "Digital Performers",
+      "description": "A robotic virtual DJ combining electronic music performance with animated holographic controls and digital sound effects.",
+      "body": "Cyber Maestro is a futuristic digital musician designed to represent the combination of electronic music and advanced visual technology.\nThe character features a metallic robotic appearance with luminous blue and purple elements, animated digital interfaces, and futuristic electronic instruments.\nDuring performances, Cyber Maestro interacts with a virtual DJ console while holographic sound waves, geometric patterns, and synchronized laser effects appear around the stage.\nThe character's movements are coordinated with electronic rhythms and programmed visual sequences.",
+      "meta": {
+        "Visual Features": "Robotic Digital Appearance, Holographic DJ Console, Animated Sound Waves, Neon Lighting",
+        "Technology": "Character Animation, Digital Audio Synchronization, Holographic Visual Effects",
+        "Location": "Digital Sound Dome",
+        "Related Show": "Cyber DJ Revolution"
+      },
+      "image": "cyber-maestro"
+    },
+    {
+      "id": "phantom-x",
+      "title": "Phantom X",
+      "category": "Digital Performers",
+      "description": "A mysterious masked virtual musician featuring digital transformations, glowing frequency patterns, and futuristic electronic visuals.",
+      "body": "Phantom X is an experimental holographic performer whose digital appearance changes throughout musical performances.\nThe character begins as a mysterious illuminated silhouette wearing a futuristic mask. As the music progresses, the digital figure transforms into different visual forms composed of glowing particles, geometric structures, and animated frequency waves.\nPhantom X represents the connection between electronic sound design and dynamic visual transformation.",
+      "meta": {
+        "Visual Features": "Glowing Mask, Digital Body Transformations, Frequency Waves, Animated Particle Effects",
+        "Technology": "Procedural Animation, Digital Character Rendering, Projection Mapping",
+        "Location": "Main Hologram Arena",
+        "Related Show": "Phantom Frequency"
+      },
+      "image": "phantom-x"
+    },
+    {
+      "id": "neon-strike",
+      "title": "Neon Strike",
+      "category": "Digital Performers",
+      "description": "A high-energy virtual percussionist featuring luminous digital drums, cybernetic armor, and synchronized rhythmic effects.",
+      "body": "Neon Strike is a virtual electronic percussionist designed for futuristic rhythm performances.\nThe character features illuminated cybernetic armor, glowing percussion instruments, and animated motion effects that follow each drum movement.\nDuring musical sequences, every percussion strike produces synchronized visual pulses, digital sparks, and geometric light patterns.\nNeon Strike performs alongside other virtual musicians during competitive electronic music shows.",
+      "meta": {
+        "Visual Features": "Cybernetic Armor, Digital Drum Kit, Rhythmic Light Pulses, Animated Motion Trails",
+        "Technology": "Motion Animation, Digital Percussion Synchronization, Real-Time Visual Effects",
+        "Location": "Digital Sound Dome",
+        "Related Show": "Cybernetic Rhythm Battle"
+      },
+      "image": "neon-strike"
+    },
+    {
+      "id": "galaxy-pulse-dj",
+      "title": "Galaxy Pulse DJ",
+      "category": "Digital Performers",
+      "description": "A cosmic-themed virtual DJ featuring holographic planetary visuals, electronic music interfaces, and glowing digital effects.",
+      "body": "Galaxy Pulse DJ is a virtual electronic musician inspired by futuristic space exploration and cosmic environments.\nThe character wears an illuminated helmet featuring animated star patterns and glowing digital details.\nDuring performances, the virtual DJ interacts with a futuristic mixing console surrounded by floating planets, animated galaxies, and luminous cosmic particles.\nThe character's visual environment changes with the music, creating synchronized sequences of electronic rhythms and space-inspired digital imagery.",
+      "meta": {
+        "Visual Features": "Cosmic Helmet, Holographic Planets, Galaxy Animations, Futuristic DJ Console",
+        "Technology": "Digital Character Animation, Audio-Reactive Visuals, Holographic Projection",
+        "Location": "Digital Sound Dome",
+        "Related Show": "Neon Galaxy Beats"
+      },
+      "image": "galaxy-pulse-dj"
+    },
+    {
+      "id": "crystal-infinity",
+      "title": "Crystal Infinity",
+      "category": "Holographic Installations",
+      "description": "A floating digital crystal sculpture featuring rotating geometric structures, luminous surfaces, and synchronized color transitions.",
+      "body": "Crystal Infinity is a large-scale holographic installation designed around the appearance of a floating crystalline structure.\nThe sculpture consists of multiple animated geometric sections that rotate and transform into different configurations.\nIts surfaces display changing patterns of blue, violet, and pink light, creating the appearance of a continuously evolving digital crystal.\nThe installation uses synchronized animation and projection effects to demonstrate how three-dimensional geometric forms can be represented through digital visuals.",
+      "meta": {
+        "Visual Features": "Floating Crystal Structure, Rotating Geometric Shapes, Neon Reflections, Animated Light Patterns",
+        "Technology": "3D Geometric Animation, Projection Systems, Digital Lighting",
+        "Location": "Hologram Art Gallery"
+      },
+      "image": "crystal-infinity"
+    },
+    {
+      "id": "quantum-sphere",
+      "title": "Quantum Sphere",
+      "category": "Holographic Installations",
+      "description": "A luminous floating sphere displaying animated energy patterns, rotating digital rings, and continuously changing geometric formations.",
+      "body": "Quantum Sphere is a futuristic digital sculpture featuring a large illuminated sphere surrounded by rotating holographic rings.\nThe installation continuously transforms its internal visual patterns, displaying geometric networks, animated particles, and flowing energy-like structures.\nDifferent lighting sequences create the appearance of movement within the sphere, while surrounding digital rings rotate at varying speeds.\nThe installation demonstrates the use of layered animation and synchronized projection effects to create complex visual structures.",
+      "meta": {
+        "Visual Features": "Floating Energy Sphere, Rotating Light Rings, Animated Particle Networks, Dynamic Color Patterns",
+        "Technology": "Layered Digital Animation, Projection Effects, Geometric Visualization",
+        "Location": "Hologram Art Gallery"
+      },
+      "image": "quantum-sphere"
+    },
+    {
+      "id": "digital-phoenix",
+      "title": "Digital Phoenix",
+      "category": "Holographic Installations",
+      "description": "A spectacular holographic phoenix featuring animated luminous wings, flowing digital particles, and dynamic transformation effects.",
+      "body": "Digital Phoenix is a large holographic art installation representing a mythical bird created entirely from animated digital light.\nThe phoenix features enormous luminous wings composed of thousands of glowing particles.\nDuring its animation sequence, the bird spreads its wings, rises above its projection platform, and gradually transforms into a cloud of colorful digital particles.\nThe particles then gather together to recreate the original phoenix form, producing a continuous transformation cycle.",
+      "meta": {
+        "Visual Features": "Giant Digital Wings, Particle Transformations, Floating Holographic Bird, Animated Light Trails",
+        "Technology": "Particle Simulation, 3D Character Animation, Holographic Visual Effects",
+        "Location": "Hologram Art Gallery"
+      },
+      "image": "digital-phoenix"
+    },
+    {
+      "id": "neon-echo",
+      "title": "Neon Echo",
+      "category": "Holographic Installations",
+      "description": "A digital human silhouette composed of animated sound waves, glowing particles, and rhythmic light patterns.",
+      "body": "Neon Echo is a holographic sculpture that represents sound through the appearance of a digital human figure.\nThe installation features a translucent silhouette constructed from animated frequency lines and luminous particles.\nAs different musical sequences play, the figure changes its shape, color, and movement patterns.\nLow-frequency sounds create broad visual pulses, while higher frequencies produce smaller and faster animations.\nThe installation demonstrates the relationship between audio signals and visual representation.",
+      "meta": {
+        "Visual Features": "Digital Human Silhouette, Animated Frequency Lines, Glowing Particles, Rhythmic Light Pulses",
+        "Technology": "Audio Visualization, Procedural Animation, Digital Projection",
+        "Location": "Hologram Art Gallery"
+      },
+      "image": "neon-echo"
+    },
+    {
+      "id": "infinity-mirror",
+      "title": "Infinity Mirror",
+      "category": "Holographic Installations",
+      "description": "An immersive mirrored installation creating the illusion of endless illuminated corridors and repeating digital structures.",
+      "body": "Infinity Mirror is an immersive visual installation designed to create the appearance of an endless illuminated space.\nThe installation combines reflective surfaces, carefully positioned LED lighting, and animated digital projections.\nVisitors observe repeating geometric structures and luminous patterns that appear to extend far beyond the physical boundaries of the installation.\nThe lighting changes gradually between different color combinations, creating multiple visual environments within the same space.",
+      "meta": {
+        "Visual Features": "Endless Light Reflections, Geometric Neon Tunnels, Mirrored Surfaces, Animated Lighting Sequences",
+        "Technology": "Optical Reflection, LED Lighting, Projection Mapping",
+        "Location": "Hologram Art Gallery"
+      },
+      "image": "infinity-mirror"
+    },
+    {
+      "id": "sound-waves",
+      "title": "Sound Waves",
+      "category": "Interactive Art",
+      "description": "An interactive digital installation that transforms sounds into animated holographic waves and colorful visual patterns.",
+      "body": "Sound Waves is an interactive installation that converts audio input into animated visual effects.\nVisitors can observe how different sounds influence the shape, speed, and color of digital wave patterns.\nMicrophones capture audio signals, which are processed by software and transformed into visual animations.\nLouder sounds produce larger visual movements, while changes in frequency affect the structure and appearance of the displayed waves.\nThe installation provides a visual demonstration of how audio information can be represented through digital graphics.",
+      "meta": {
+        "Visual Features": "Floating Sound Waves, Dynamic Frequency Patterns, Neon Color Transitions, Audio-Reactive Animations",
+        "Technology": "Audio Analysis, Real-Time Graphics, Interactive Projection",
+        "Location": "Hologram Art Gallery"
+      },
+      "image": "sound-waves"
+    },
+    {
+      "id": "pulse-reactor",
+      "title": "Pulse Reactor",
+      "category": "Interactive Art",
+      "description": "A futuristic interactive reactor sculpture that responds to rhythmic sounds with synchronized light pulses and animated energy patterns.",
+      "body": "Pulse Reactor is an interactive digital sculpture designed to visualize rhythmic audio patterns.\nThe installation features a central illuminated energy core surrounded by multiple circular structures.\nWhen rhythmic sounds are detected, the central core generates synchronized light pulses, while surrounding rings display animated energy patterns.\nDifferent rhythms produce different lighting sequences, allowing visitors to observe how changes in musical timing affect the visual output.",
+      "meta": {
+        "Visual Features": "Glowing Energy Core, Circular Light Structures, Rhythmic Pulses, Animated Energy Patterns",
+        "Technology": "Rhythm Detection, Digital Lighting Control, Interactive Visual Systems",
+        "Location": "Technology Discovery Center"
+      },
+      "image": "pulse-reactor"
+    },
+    {
+      "id": "motion-canvas",
+      "title": "Motion Canvas",
+      "category": "Interactive Art",
+      "description": "An interactive digital canvas that transforms visitor movements into colorful light trails, animated shapes, and holographic patterns.",
+      "body": "Motion Canvas is an interactive visual installation that responds to the movements of visitors.\nA motion-tracking system detects body positions and hand gestures, allowing users to influence digital shapes displayed across a large projection surface.\nMoving a hand can create luminous trails, while broader movements generate animated geometric patterns.\nMultiple visitors can interact with the installation simultaneously, producing overlapping visual effects and collaborative digital artwork.",
+      "meta": {
+        "Visual Features": "Motion-Generated Light Trails, Interactive Digital Shapes, Colorful Particle Effects, Large Projection Canvas",
+        "Technology": "Motion Tracking, Computer Vision, Real-Time Animation",
+        "Location": "Technology Discovery Center"
+      },
+      "image": "motion-canvas"
+    },
+    {
+      "id": "holo-touch-garden",
+      "title": "Holo Touch Garden",
+      "category": "Interactive Art",
+      "description": "A digital garden featuring interactive holographic flowers that respond to visitor gestures with animated colors and light effects.",
+      "body": "Holo Touch Garden is an interactive digital environment featuring a collection of illuminated virtual flowers and plants.\nVisitors can interact with the installation through hand gestures detected by motion sensors.\nWhen a gesture is recognized, nearby digital flowers change color, open their petals, or generate animated light particles.\nDifferent gestures trigger different visual responses, allowing visitors to explore multiple combinations of movement and digital animation.\nThe installation combines nature-inspired visual design with futuristic interactive technology.",
+      "meta": {
+        "Visual Features": "Holographic Flowers, Animated Petals, Interactive Color Changes, Glowing Digital Particles",
+        "Technology": "Gesture Recognition, Motion Sensors, Interactive 3D Animation",
+        "Location": "Neon Relax Garden"
+      },
+      "image": "holo-touch-garden"
+    },
+    {
+      "id": "digital-gravity",
+      "title": "Digital Gravity",
+      "category": "Interactive Art",
+      "description": "An interactive holographic installation featuring floating digital objects that respond to visitor movements and simulated gravity effects.",
+      "body": "Digital Gravity is an interactive installation that simulates the movement of objects in a virtual environment.\nThe installation displays floating geometric shapes, including cubes, spheres, and abstract digital structures.\nVisitors can influence the movement of these objects through tracked hand gestures.\nDepending on the interaction, the objects may move closer together, separate, rotate, or follow simulated gravitational paths.\nThe installation demonstrates how digital physics simulations can be combined with interactive visual technology.",
+      "meta": {
+        "Visual Features": "Floating Geometric Objects, Simulated Gravity, Interactive Object Movement, Neon Digital Effects",
+        "Technology": "Physics Simulation, Gesture Tracking, Real-Time 3D Graphics",
+        "Location": "Technology Discovery Center"
+      },
+      "image": "digital-gravity"
+    }
+  ],
+  "locations": [
+    {
+      "id": "main-hologram-arena",
+      "title": "Main Hologram Arena",
+      "category": "Concert Arena",
+      "description": "The festival's largest concert venue, featuring holographic singers, virtual bands, immersive stage projections, and spectacular digital performances.",
+      "body": "Main Hologram Arena is the central performance venue of Charmius Holo Music Fest, designed for large-scale holographic concerts and immersive digital entertainment.\nThe arena features a massive circular performance stage surrounded by transparent projection screens, illuminated architectural structures, and advanced audiovisual systems.\nVisitors can experience virtual singers, holographic musicians, digital dance performances, and synchronized laser effects.\nThe interior includes tiered audience seating, illuminated walkways, large digital displays, and panoramic viewing areas.\nThe stage environment changes between performances, creating different visual settings for each concert.",
+      "meta": {
+        "Location Highlights": "Circular Holographic Stage, Virtual Performers, Panoramic Projection Screens, Synchronized Laser Lighting",
+        "Available Activities": "Holographic Pop Concerts, Virtual Rock Performances, Digital Music Shows",
+        "Related Shows": "Neon Pulse Live, Virtual Legends Live, Phantom Frequency, Neon Pulse Evolution",
+        "Map Button": "View Shows"
+      },
+      "image": "main-hologram-arena",
+      "group": "Concerts",
+      "x": 50,
+      "y": 17
+    },
+    {
+      "id": "digital-sound-dome",
+      "title": "Digital Sound Dome",
+      "category": "Music Stage",
+      "description": "A futuristic dome-shaped concert venue dedicated to electronic music, virtual DJs, immersive audio, and synchronized digital effects.",
+      "body": "Digital Sound Dome is a specialized electronic music venue featuring a large illuminated dome structure and an advanced audiovisual performance environment.\nThe interior is designed around a central DJ platform surrounded by circular LED installations, digital projection surfaces, and powerful sound systems.\nVisitors can attend virtual DJ performances, electronic music concerts, and rhythm-based digital shows.\nDuring performances, the dome displays animated sound waves, moving geometric patterns, and synchronized laser effects.\nThe venue uses immersive lighting and spatial audio to create a coordinated electronic music experience.",
+      "meta": {
+        "Location Highlights": "Illuminated Concert Dome, Virtual DJ Platform, Spatial Audio Systems, Digital Sound Visualizations",
+        "Available Activities": "Electronic Music Concerts, Virtual DJ Performances, Digital Rhythm Shows",
+        "Related Shows": "Cyber DJ Revolution, Neon Galaxy Beats, Cybernetic Rhythm Battle",
+        "Map Button": "View Shows"
+      },
+      "image": "digital-sound-dome",
+      "group": "Concerts",
+      "x": 23,
+      "y": 31
+    },
+    {
+      "id": "crystal-projection-hall",
+      "title": "Crystal Projection Hall",
+      "category": "Concert Hall",
+      "description": "An elegant indoor performance hall featuring holographic orchestras, digital instruments, crystal-inspired projections, and atmospheric lighting.",
+      "body": "Crystal Projection Hall is a premium indoor concert venue designed for holographic orchestral performances and visually enhanced instrumental music.\nThe hall features elegant curved architecture, crystal-inspired projection structures, and a large central performance stage.\nDigital musicians and virtual orchestras appear through advanced projection systems, while animated musical notes and luminous geometric patterns move across the performance environment.\nThe lighting system uses blue, violet, and cyan tones to create a calm and sophisticated atmosphere.\nThe venue provides comfortable audience seating and clear views of the holographic stage.",
+      "meta": {
+        "Location Highlights": "Crystal Projection Structures, Virtual Orchestra Stage, Digital Musical Instruments, Atmospheric Lighting",
+        "Available Activities": "Holographic Symphony Concerts, Digital Orchestra Performances, Musical Light Shows",
+        "Related Shows": "Digital Symphony, Quantum Light Orchestra, Aurora Light Symphony",
+        "Map Button": "View Shows"
+      },
+      "image": "crystal-projection-hall",
+      "group": "Concerts",
+      "x": 78,
+      "y": 30
+    },
+    {
+      "id": "infinity-experience-zone",
+      "title": "Infinity Experience Zone",
+      "category": "Immersive Zone",
+      "description": "An immersive audiovisual environment featuring panoramic digital landscapes, holographic planets, spatial sound, and interactive projections.",
+      "body": "Infinity Experience Zone is a large immersive entertainment environment designed to surround visitors with panoramic digital imagery and atmospheric music.\nThe space features extensive projection surfaces, illuminated architectural structures, and spatial audio systems.\nDuring performances, the environment transforms into different digital worlds, including cosmic landscapes, floating islands, glowing crystal environments, and abstract futuristic scenery.\nVisitors can experience coordinated audiovisual sequences that combine music, animation, and immersive lighting.\nThe zone is designed to create the sensation of entering a virtual environment while remaining inside a physical festival venue.",
+      "meta": {
+        "Location Highlights": "Panoramic Digital Projections, Cosmic Visual Environments, Spatial Audio, Immersive Lighting",
+        "Available Activities": "Cosmic Music Experiences, Digital Dreamscapes, Immersive Audiovisual Shows",
+        "Related Shows": "Cosmic Sound Journey, Infinity Dreamscape, Dream Portal Experience",
+        "Map Button": "View Shows"
+      },
+      "image": "infinity-experience-zone",
+      "group": "Concerts",
+      "x": 28,
+      "y": 70
+    },
+    {
+      "id": "neon-motion-stage",
+      "title": "Neon Motion Stage",
+      "category": "Music Stage",
+      "description": "A futuristic dance performance venue featuring holographic dancers, synchronized choreography, digital motion effects, and neon lighting.",
+      "body": "Neon Motion Stage is a dedicated performance area for holographic dance shows and electronic music entertainment.\nThe stage features multiple digital projection surfaces, illuminated platforms, and geometric lighting structures.\nVirtual dancers perform synchronized choreography while animated motion trails and visual patterns follow their movements.\nThe venue supports dynamic stage transformations, allowing the environment to change between different musical sequences.\nVisitors can watch large-scale digital dance performances accompanied by electronic music, colorful laser effects, and animated visual elements.",
+      "meta": {
+        "Location Highlights": "Holographic Dance Stage, Digital Motion Trails, Neon Geometric Structures, Synchronized Lighting",
+        "Available Activities": "Holographic Dance Shows, Electronic Dance Performances, Digital Choreography",
+        "Related Shows": "Holographic Dance Fusion, Electric Motion Finale",
+        "Map Button": "View Shows"
+      },
+      "image": "neon-motion-stage",
+      "group": "Concerts",
+      "x": 75,
+      "y": 69
+    },
+    {
+      "id": "hologram-art-gallery",
+      "title": "Hologram Art Gallery",
+      "category": "Exhibition",
+      "description": "A futuristic exhibition hall featuring digital performers, holographic sculptures, interactive artwork, and immersive visual installations.",
+      "body": "Hologram Art Gallery is the main exhibition space of Charmius Holo Music Fest, dedicated to digital art and holographic visual experiences.\nThe gallery features a collection of virtual performers, illuminated sculptures, floating geometric structures, and interactive installations.\nVisitors can explore different exhibition areas displaying holographic characters, digital crystal formations, animated light sculptures, and sound-reactive artwork.\nEach installation includes information about its artistic concept, visual characteristics, and underlying technology.\nThe gallery combines modern exhibition architecture with futuristic digital presentation systems.",
+      "meta": {
+        "Location Highlights": "Holographic Sculptures, Digital Performer Exhibits, Interactive Art, Futuristic Exhibition Spaces",
+        "Available Activities": "Digital Art Exploration, Holographic Exhibitions, Interactive Visual Experiences",
+        "Featured Exhibits": "Crystal Infinity, Quantum Sphere, Digital Phoenix, Neon Echo, Infinity Mirror, Sound Waves",
+        "Map Button": "Explore Gallery"
+      },
+      "image": "hologram-art-gallery",
+      "group": "Exhibitions",
+      "x": 49,
+      "y": 48
+    },
+    {
+      "id": "technology-discovery-center",
+      "title": "Technology Discovery Center",
+      "category": "Exhibition",
+      "description": "An educational technology pavilion featuring holographic projection demonstrations, motion-tracking systems, digital audio technology, and interactive installations.",
+      "body": "Technology Discovery Center is an educational exhibition pavilion where visitors can explore the technologies used to create futuristic music performances and holographic visual effects.\nThe center contains demonstration areas dedicated to digital projection, virtual character animation, motion capture, spatial audio, and interactive visual systems.\nVisitors can observe how digital performers are created, how projection systems operate, and how lighting effects synchronize with music.\nInteractive exhibits allow guests to experiment with motion tracking, digital physics simulations, and audio-reactive visuals.\nInformation displays explain the principles behind each technology using accessible descriptions and practical examples.",
+      "meta": {
+        "Location Highlights": "Projection Demonstrations, Motion Capture Systems, Interactive Technology Exhibits, Digital Audio Displays",
+        "Available Activities": "Technology Exploration, Interactive Demonstrations, Educational Exhibitions",
+        "Featured Exhibits": "Pulse Reactor, Motion Canvas, Digital Gravity",
+        "Map Button": "Explore Technology"
+      },
+      "image": "motion-canvas",
+      "group": "Exhibitions",
+      "x": 16,
+      "y": 52
+    },
+    {
+      "id": "future-food-court",
+      "title": "Future Food Court",
+      "category": "Services",
+      "description": "A modern festival dining area featuring themed cafes, comfortable seating, illuminated interiors, and convenient food service points.",
+      "body": "Future Food Court is the main dining and refreshment area of Charmius Holo Music Fest.\nThe space features several themed food counters, modern seating areas, and futuristic architectural decorations.\nVisitors can take a break between performances, enjoy meals and refreshments, and relax in a comfortable environment.\nThe dining area is illuminated with soft purple, blue, and pink lighting that matches the festival's overall visual identity.\nClearly organized pathways connect the food court with nearby concert stages and exhibition areas.",
+      "meta": {
+        "Location Highlights": "Themed Food Counters, Comfortable Seating, Futuristic Interior Design, Illuminated Dining Areas",
+        "Available Services": "Food, Drinks, Seating Areas, Rest Zones",
+        "Map Button": "View Location"
+      },
+      "image": "future-food-court",
+      "group": "Services",
+      "x": 85,
+      "y": 52
+    },
+    {
+      "id": "digital-welcome-plaza",
+      "title": "Digital Welcome Plaza",
+      "category": "Services",
+      "description": "The main festival entrance featuring visitor information displays, QR ticket checkpoints, illuminated pathways, and orientation areas.",
+      "body": "Digital Welcome Plaza is the primary entrance and orientation area of Charmius Holo Music Fest.\nVisitors enter the festival through a large illuminated plaza featuring futuristic architectural structures, digital information displays, and clearly marked access points.\nThe entrance includes QR ticket verification checkpoints where visitors present their digital reservations before accessing booked performances.\nInformation displays provide directions to concert stages, exhibition halls, and service areas.\nThe plaza connects directly to the main pedestrian pathways of the festival.",
+      "meta": {
+        "Location Highlights": "Main Festival Entrance, QR Ticket Checkpoints, Digital Information Displays, Illuminated Welcome Area",
+        "Available Services": "Festival Entry, QR Ticket Verification, Visitor Information, Location Guidance",
+        "Map Button": "View Location"
+      },
+      "image": "digital-welcome-plaza",
+      "group": "Services",
+      "x": 50,
+      "y": 86
+    },
+    {
+      "id": "neon-relax-garden",
+      "title": "Neon Relax Garden",
+      "category": "Services",
+      "description": "A peaceful outdoor relaxation area featuring glowing garden installations, illuminated pathways, comfortable seating, and interactive digital flowers.",
+      "body": "Neon Relax Garden is a quiet outdoor space designed for visitors who want to relax between concerts and exhibitions.\nThe garden features illuminated pathways, decorative plants, comfortable seating areas, and futuristic light installations.\nSoft blue, violet, and pink lighting creates a calm atmosphere that contrasts with the energetic concert stages.\nVisitors can explore interactive digital flowers, observe decorative light sculptures, or simply rest in the landscaped seating areas.\nThe garden also features the Holo Touch Garden installation, which responds to visitor gestures through animated digital flowers and changing light effects.",
+      "meta": {
+        "Location Highlights": "Illuminated Garden Paths, Interactive Digital Flowers, Comfortable Seating, Decorative Light Installations",
+        "Available Activities": "Relaxation, Interactive Garden Exploration, Digital Art Viewing",
+        "Featured Exhibit": "Holo Touch Garden",
+        "Map Button": "View Location"
+      },
+      "image": "neon-relax-garden",
+      "group": "Services",
+      "x": 19,
+      "y": 85
+    }
+  ],
+  "technologies": [
+    {
+      "id": "holographic-projection-technology",
+      "title": "Holographic Projection Technology",
+      "category": "Holograms",
+      "description": "Learn how projection systems, reflective surfaces, and controlled lighting create realistic holographic stage illusions.",
+      "body": "Holographic projection technology is used in entertainment to create the appearance of digital performers and three-dimensional objects within physical spaces.\nMany modern holographic stage shows rely on optical illusion techniques rather than true free-space holograms. These systems use transparent screens, reflective materials, high-resolution projectors, and carefully controlled lighting to make digital images appear as if they are floating on stage.\nOne well-known technique is based on the Pepper's Ghost illusion, which uses a transparent or reflective surface to create the appearance of an object in a location where it is not physically present.\nModern projection systems can display animated digital performers, virtual instruments, and large visual effects that appear to interact with real stage environments.",
+      "meta": {
+        "Festival Application": "Main Hologram Arena, Crystal Projection Hall",
+        "Related Experience": "Neon Pulse Live, Digital Symphony"
+      },
+      "how": "A digital image is generated by a computer and displayed using a projector or LED system. The image is reflected or projected onto a specially positioned surface. Carefully controlled lighting and viewing angles create the illusion of a performer or object occupying physical space.",
+      "facts": "Many concert holograms are projection-based optical illusions rather than true volumetric holograms.\nStage lighting must be carefully controlled to maintain image visibility.\nMultiple projection surfaces can create layered visual effects.\nThe illusion depends on the positioning of the display surfaces and audience.",
+      "image": "holographic-concert"
+    },
+    {
+      "id": "virtual-performer-creation",
+      "title": "Virtual Performer Creation",
+      "category": "Digital Performers",
+      "description": "Explore how digital artists are designed, modeled, animated, and prepared for holographic music performances.",
+      "body": "Virtual performers are digitally created characters designed to appear in concerts, music videos, interactive installations, and other entertainment experiences.\nCreating a virtual performer begins with character design. Artists define the character's appearance, clothing, facial features, and visual identity.\nThree-dimensional modeling software is then used to create a detailed digital model. The model is equipped with a virtual skeleton, allowing animators to control body movements and facial expressions.\nTextures, lighting, and visual effects are added to create a realistic or stylized appearance.\nDuring a concert, the virtual performer can follow prerecorded animations or be controlled through live motion capture and performance systems.",
+      "meta": {
+        "Festival Application": "Main Hologram Arena, Digital Sound Dome",
+        "Related Experience": "Aurora Nova, Cyber Maestro, Phantom X"
+      },
+      "how": "A digital character is modeled in 3D software, equipped with an animation rig, and assigned movement sequences. The completed character is rendered and displayed through a projection system or digital screen.",
+      "facts": "Virtual performers can have unique costumes and appearances for every concert.\nDigital characters can perform movements created by real dancers.\nFacial animation can reproduce detailed expressions.\nVirtual performers can be displayed in multiple visual environments without changing physical stage decorations.",
+      "image": "aurora-nova"
+    },
+    {
+      "id": "motion-capture-systems",
+      "title": "Motion Capture Systems",
+      "category": "Digital Performers",
+      "description": "Discover how real human movements are recorded and transferred to virtual characters for realistic digital performances.",
+      "body": "Motion capture is a technology used to record the movements of real people and convert them into digital animation data.\nProfessional motion capture systems may use cameras, reflective markers, wearable sensors, or computer vision algorithms to track body positions.\nDuring a recording session, a performer executes dance routines, gestures, or other physical movements.\nThe system records the motion and converts it into information that can be applied to a digital character.\nThis process allows virtual performers to reproduce realistic choreography, natural body movements, and expressive gestures.\nMotion capture is widely used in film production, video games, animation, and virtual entertainment.",
+      "meta": {
+        "Festival Application": "Technology Discovery Center, Neon Motion Stage",
+        "Related Experience": "Holographic Dance Fusion, Electric Motion Finale"
+      },
+      "how": "Tracking equipment records the position and movement of a performer. Software processes this information and converts it into animation data. The resulting motion is applied to the virtual skeleton of a digital character.",
+      "facts": "Motion capture can record complex dance choreography.\nSome systems use wearable sensors instead of optical markers.\nFacial motion capture can record expressions separately from body movements.\nRecorded motion can be edited and reused for different digital characters.",
+      "image": "neon-strike"
+    },
+    {
+      "id": "immersive-spatial-audio",
+      "title": "Immersive Spatial Audio",
+      "category": "Sound & Lighting",
+      "description": "Understand how multidirectional speaker systems and digital audio processing create immersive sound environments.",
+      "body": "Immersive spatial audio technology creates the perception of sound coming from different directions within a physical environment.\nUnlike traditional stereo systems, which primarily use left and right audio channels, immersive audio systems can distribute sound across multiple speakers positioned around and sometimes above the audience.\nDigital signal processing software controls the placement, movement, and intensity of individual audio elements.\nThis allows musical instruments, environmental sounds, and special effects to appear to move through the performance space.\nSpatial audio is particularly effective in immersive exhibitions, dome theaters, and audiovisual concert environments.",
+      "meta": {
+        "Festival Application": "Digital Sound Dome, Infinity Experience Zone",
+        "Related Experience": "Cyber DJ Revolution, Cosmic Sound Journey"
+      },
+      "how": "Audio signals are processed using spatial sound software and distributed across a configured speaker system. The system adjusts signal levels, timing, and other parameters to create the perception of sound originating from different positions.",
+      "facts": "Spatial audio can create the impression of moving sound sources.\nSpeaker placement influences the listening experience.\nImmersive audio systems can include speakers positioned above the audience.\nDigital sound processing allows complex audio environments to be created from multiple independent sound sources.",
+      "image": "sound-waves"
+    },
+    {
+      "id": "laser-light-synchronization",
+      "title": "Laser & Light Synchronization",
+      "category": "Sound & Lighting",
+      "description": "Learn how concert lighting systems synchronize lasers, LED panels, and moving lights with musical performances.",
+      "body": "Modern concert lighting systems use digital controllers to coordinate multiple lighting devices during a performance.\nThese devices can include moving-head spotlights, LED panels, laser projectors, and programmable architectural lighting.\nLighting sequences are often prepared in advance and synchronized with the timing of a musical performance.\nSome systems can also analyze audio signals to generate effects that respond to changes in rhythm, frequency, or volume.\nBy combining precise timing with multiple lighting technologies, concert designers create coordinated audiovisual environments.",
+      "meta": {
+        "Festival Application": "Main Hologram Arena, Neon Motion Stage",
+        "Related Experience": "Neon Pulse Evolution, Electric Motion Finale"
+      },
+      "how": "A lighting controller sends programmed commands to compatible lighting equipment. The commands determine when lights change color, move, increase brightness, or activate specific visual patterns. Timing systems keep these effects synchronized with the music.",
+      "facts": "Professional lighting systems can control hundreds of individual fixtures.\nLighting sequences can be synchronized with prerecorded musical timelines.\nAudio-reactive systems can generate visual effects from sound signals.\nAudience-facing laser effects require appropriate safety controls and professional operation.",
+      "image": "festival-plaza"
+    },
+    {
+      "id": "projection-mapping",
+      "title": "Projection Mapping",
+      "category": "Holograms",
+      "description": "Discover how digital projections transform buildings, concert stages, and physical structures into animated visual environments.",
+      "body": "Projection mapping is a visual technology that uses digital projectors to display images and animations on physical surfaces.\nUnlike conventional projection, which typically uses flat rectangular screens, projection mapping can adapt visual content to irregular objects, architectural structures, and complex stage designs.\nSpecialized software creates a digital representation of the target surface and adjusts the projected image to match its geometry.\nDuring concerts, projection mapping can transform ordinary stage decorations into moving digital structures, animated landscapes, and futuristic environments.\nThe technology is commonly used in music festivals, architectural light shows, exhibitions, and immersive entertainment experiences.",
+      "meta": {
+        "Festival Application": "Main Hologram Arena, Digital Welcome Plaza",
+        "Related Experience": "Virtual Legends Live, Neon Pulse Evolution"
+      },
+      "how": "Designers create a digital model of the physical surface and prepare animations that match its shape. Projectors are positioned and calibrated so the images align with the structure. During playback, the animations create the illusion that the physical object is moving or transforming.",
+      "facts": "Projection mapping can be applied to buildings, sculptures, stages, and other physical objects.\nMultiple projectors can cover large or complex surfaces.\nPrecise calibration is essential for accurate image alignment.\nAnimated projections can make stationary objects appear to change shape.",
+      "image": "motion-canvas"
+    },
+    {
+      "id": "interactive-motion-tracking",
+      "title": "Interactive Motion Tracking",
+      "category": "Interactive Systems",
+      "description": "Explore how sensors and computer vision systems detect visitor movements and transform them into interactive digital effects.",
+      "body": "Interactive motion tracking allows digital installations to respond to physical movements in real time.\nThese systems use cameras, depth sensors, or other tracking devices to detect the position and movement of people.\nSoftware analyzes the collected information and converts it into commands that control digital objects, animations, or lighting effects.\nFor example, moving a hand may cause a virtual object to rotate, while walking through a monitored area may activate animated light patterns.\nMotion tracking allows visitors to interact with digital installations without traditional controllers.",
+      "meta": {
+        "Festival Application": "Technology Discovery Center, Hologram Art Gallery",
+        "Related Experience": "Motion Canvas, Holo Touch Garden"
+      },
+      "how": "Sensors capture information about a visitor's movements. Computer software identifies relevant gestures or body positions and translates them into actions within a digital environment.",
+      "facts": "Some motion tracking systems can detect movements without physical markers.\nDepth cameras can measure the distance between objects and sensors.\nGesture recognition can identify predefined hand movements.\nMultiple visitors can interact with the same installation when the system supports simultaneous tracking.",
+      "image": "infinity-mirror"
+    },
+    {
+      "id": "real-time-3d-rendering",
+      "title": "Real-Time 3D Rendering",
+      "category": "Digital Performers",
+      "description": "Learn how powerful graphics systems generate animated digital characters and virtual environments in real time.",
+      "body": "Real-time 3D rendering is the process of generating digital images quickly enough to support continuous animation and interactive visual experiences.\nThe technology is widely used in video games, virtual production, interactive exhibitions, and digital performances.\nThree-dimensional objects are created using geometry, materials, textures, and lighting information.\nGraphics processors calculate how these objects should appear from a specific viewing position and generate the final images.\nReal-time rendering allows virtual environments and digital characters to change immediately in response to programmed events or interactive inputs.\nDuring digital performances, rendering systems can control animated characters, stage environments, particle effects, and other visual elements.",
+      "meta": {
+        "Festival Application": "Technology Discovery Center, Main Hologram Arena",
+        "Related Experience": "Aurora Nova, Cyber Maestro, Digital Phoenix"
+      },
+      "how": "A graphics engine processes 3D models, animations, lighting, and camera information. A graphics processor generates successive images, allowing digital scenes to appear animated and respond to changes.",
+      "facts": "Real-time rendering is essential for many interactive 3D applications.\nGraphics processors perform large numbers of calculations simultaneously.\nLighting and materials strongly influence the realism of digital objects.\nReal-time environments can respond to user input without prerecorded video sequences.",
+      "image": "digital-gravity"
+    },
+    {
+      "id": "audio-reactive-visual-systems",
+      "title": "Audio-Reactive Visual Systems",
+      "category": "Sound & Lighting",
+      "description": "Discover how sound frequencies, volume levels, and musical rhythms can control digital animations and lighting effects.",
+      "body": "Audio-reactive visual systems convert information from sound signals into animated graphics and lighting effects.\nThese systems analyze audio characteristics such as volume, frequency distribution, and rhythmic patterns.\nSoftware processes the audio information and uses it to control visual parameters, including movement, size, brightness, and color.\nFor example, low-frequency sounds may generate large visual pulses, while higher frequencies may produce smaller and faster animations.\nAudio-reactive technology is commonly used in electronic music performances, interactive exhibitions, music visualizers, and digital art installations.",
+      "meta": {
+        "Festival Application": "Hologram Art Gallery, Digital Sound Dome",
+        "Related Experience": "Sound Waves, Pulse Reactor, Cyber DJ Revolution"
+      },
+      "how": "An audio signal is captured and analyzed by software. The system extracts selected audio characteristics and maps them to visual parameters. A graphics or lighting system then generates corresponding effects.",
+      "facts": "Different frequency ranges can control different visual elements.\nAudio-reactive effects can operate in real time.\nSound visualization does not require a virtual performer.\nVisual responses can be customized for different musical styles.",
+      "image": "neon-echo"
+    },
+    {
+      "id": "digital-particle-simulation",
+      "title": "Digital Particle Simulation",
+      "category": "Interactive Systems",
+      "description": "Explore how digital particle systems create glowing transformations, animated energy effects, and complex holographic visuals.",
+      "body": "Digital particle simulation is a computer graphics technique used to create visual effects involving large numbers of small animated elements.\nEach particle can have individual properties such as position, velocity, color, size, and lifetime.\nBy controlling these properties, artists can create effects resembling smoke, sparks, flowing energy, glowing dust, or magical transformations.\nParticle systems are frequently used in films, video games, virtual performances, and digital art installations.\nIn holographic entertainment, particle simulations can make digital performers appear to dissolve, transform, or emerge from clouds of luminous elements.",
+      "meta": {
+        "Festival Application": "Hologram Art Gallery, Main Hologram Arena",
+        "Related Experience": "Digital Phoenix, Phantom X, Neon Pulse Evolution"
+      },
+      "how": "A particle system generates a collection of digital elements and assigns movement rules to them. The software updates their positions and visual properties over time, creating coordinated animated effects.",
+      "facts": "Particle systems can simulate thousands or millions of visual elements, depending on hardware and complexity.\nIndividual particles can follow different movement patterns.\nParticle effects can respond to music or interactive inputs.\nParticle simulations can be combined with 3D character animation.",
+      "image": "digital-phoenix"
+    }
+  ]
+}
